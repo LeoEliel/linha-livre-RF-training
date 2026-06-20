@@ -14,7 +14,7 @@ Saidas por trecho (PERCENTUAL, p/ casar com o protocolo de rotulagem):
     decliv_media_pct, decliv_max_pct, frac_plana (<2%), frac_ingreme (>8%)
     decliv_media_graus (auxiliar)
 
-Uso (Codespaces):
+Uso:
     python extrai_declividade.py --dem output_hh.tif \
         --trechos trechos/trechos.geojson --buffer 20 \
         --saida data/interim/declividade.csv

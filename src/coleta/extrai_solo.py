@@ -25,7 +25,7 @@ Saidas: solo_ordem, solo_textura, solo_relevo, solo_erosao,
 CRITICO: pedo_area.shp e o BRASIL inteiro (114k poligonos, ~628 MB). Lemos com
 filtro de BBOX — so os poligonos da area de estudo entram na memoria.
 
-Uso (Codespaces):
+Uso:
     python extrai_solo.py --solo pedo_area.shp \
         --trechos trechos/trechos.geojson \
         --bbox -63.20 -10.10 -62.85 -9.72 \

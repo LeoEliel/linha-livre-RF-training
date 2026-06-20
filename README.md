@@ -11,7 +11,7 @@ Hackathon IFRO Ariquemes 2026.
 ## Estrutura do repositório
 
 ```
-atola/
+linha-livre-RF-training/
 ├── README.md
 ├── PROTOCOLO_ROTULAGEM.md        # protocolo de rotulagem (ciente de declividade)
 ├── requirements.txt
@@ -79,7 +79,7 @@ pip install -r requirements.txt
 # 1) Chuva — preenche chuva_72h/7d/30d a partir dos centroides
 python src/coleta/coleta_open_meteo.py \
     --trechos trechos/trechos.geojson \
-    --datas data/datas_alvo.csv \
+    --datas data/raw/datas_alvo.csv \
     --saida data/interim/chuva.csv
 ```
 
