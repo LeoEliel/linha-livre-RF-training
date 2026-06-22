@@ -1,4 +1,4 @@
-# Atola — Plataforma Preditiva de Trafegabilidade em Vicinais de Rondônia
+# LinhaLivre — Plataforma Preditiva de Trafegabilidade em Vicinais de Rondônia
 
 Modelo de classificação (Random Forest) que prevê a trafegabilidade de estradas vicinais não pavimentadas da Amazônia Ocidental em quatro classes: **alta / média / baixa / intransitável**.
 Hackathon IFRO Ariquemes 2026.
